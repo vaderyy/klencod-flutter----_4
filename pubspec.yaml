@@ -1,0 +1,32 @@
+name: fezzan_university
+description: "تطبيق جامعة فزان الأكاديمي"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+  http: ^1.1.0
+  html: ^0.15.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+  fonts:
+    - family: SF Pro Display
+      fonts:
+        - asset: fonts/SF-Pro-Display-Regular.ttf
+        - asset: fonts/SF-Pro-Display-Bold.ttf
+          weight: 700
